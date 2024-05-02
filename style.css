@@ -1,0 +1,193 @@
+body{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 50px;
+    font-style: normal;
+    margin: 0;
+    background-color:#e0488f;
+    overflow: scroll;
+
+}
+
+  
+h1{
+    font-size: 95px;
+    color:rgb(0, 0, 0);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    margin:0;
+    margin-bottom: 5%;
+    padding-left: 30px;
+}
+#landing p{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 10px;
+    font-style: normal;
+    margin:0;
+    color:black;
+    font-size: 25px;
+    padding-left: 50px;
+    
+}
+
+#landing img{
+    width: 550px;
+    display: block;
+    padding-right: 50px;
+    
+}
+span{
+    color: aquamarine;
+
+}
+#landing{
+    background-image: linear-gradient(to bottom right, #ffcc99, #ff99cc);
+    display: flex;
+    padding-right: 80px;
+    margin-left: -80px;
+    margin-right: 80px;
+    width:100%;
+    
+}
+#Awards{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+h2{
+    color:rgb(0, 0, 0);
+    font-family: "Architects Daughter", cursive;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    font-size: 70px;
+    margin:30px;
+}
+.Award img{
+    height:200px;
+    width:auto;
+    display: flex;
+    float: left;
+    margin:20px;
+    padding:20px;
+}
+h3{
+    color:rgb(0, 0, 0);
+    font-family: "Architects Daughter", cursive;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    font-size: 40px;
+    margin:0;
+    padding-top: 20px;
+}
+#Awards h4{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 50px;
+    font-style: normal;
+    color: #403239;
+    font-size: 15px;
+    margin-top: 3px;
+
+}
+#Awards p{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 50px;
+    font-style: normal;
+    color: #403239;
+    font-size: 25px;
+    margin:3px;
+}
+.Award{
+    background-color: #ed9bdf;
+    max-width: 600px;
+    max-height: 550px;
+   
+    box-shadow: 10px 10px 5px;
+    margin:30px;
+    padding:2%;
+}
+#edu-main{
+    background: linear-gradient(to bottom right, #bbf1df 0%, #e999e9 100%);
+    padding: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    padding-left: 20px;
+    
+}
+#education{
+    background: linear-gradient(to bottom right, #66ffcc 0%, #ff00ff 100%);
+    padding:20px;
+    margin-right:10px;
+
+}
+
+.educations{
+    background: linear-gradient(to right, #ffcccc 0%, #cc66ff 100%);
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 90px;
+    box-shadow: 10px 10px 5px;
+    margin:30px;
+    padding:2%;
+    display: flex;
+    flex-direction: column;
+    
+}
+/*.educations-p{
+    align-items: flex-end;
+}*/
+.align{
+    flex-grow: 1;
+    
+}
+.year{
+    /*margin:0;*/
+    align-self: flex-end;
+    margin-right: 20px;  
+}
+#extra-act{
+    background-color: #ff9999;
+    padding-left: 20px;
+    border-radius: 50px;
+}
+.act{
+    background: linear-gradient(to right, #ffcccc 0%, #cc66ff 100%);
+    box-shadow: 10px 10px 5px;
+    width:600px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 50px;
+    height: auto;
+   
+}
+.logoimg{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    float: left;
+}
+#headingmj{
+    padding-left: 120px;
+    padding-top: 2px;
+}
+#para{
+    padding-left: 120px;
+    /*line-height: 2px;*/
+}
+.yt,.sha{
+    width:30px;
+    height: 30px;
+    padding-bottom: 10px;
+    display: inline-block;
+    
+}
+.act btn-click{
+    margin-left:100px;
+    margin-right: 50px;
+    float: inherit;
+    padding-left: 250px;
+}
